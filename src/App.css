@@ -1,33 +1,44 @@
-.App {
+
+
+button {
+  margin-left: 10px;
+  background-color: rgb(82, 70, 245); 
+  color: white;
+  border-radius: 10px;
+}
+
+.delete_company {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+img {
+  border-radius: 20px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.all_pages {
+  text-align: center;
+  margin: 50px auto;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.players_list{
+  column-span: all;
+
 }
+
+.players_list_box {
+  border: 1px solid black;
+  width: 50%;
+  margin: 0px auto;
+  min-width: 375px;
+}
+
+body {
+  font-family: 'Graduate';font-size: 22px;
+}
+
+
+
